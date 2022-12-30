@@ -22,6 +22,8 @@ const Example = () => {
 };
 ```
 
+<video src="/video/Fly.mp4" controls />
+
 ## Options
 
 Separate in and out options are available.

@@ -22,6 +22,8 @@ const Example = () => {
 };
 ```
 
+<video src="/video/Fade.mp4" controls />
+
 ## Options
 
 Separate in and out options are available.
