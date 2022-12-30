@@ -1,13 +1,13 @@
 import {AbsoluteFill} from 'remotion';
+import {Fly} from '../packages/Fly';
 import {Square} from './components/Square';
-import {Fade} from '../packages/Fade';
 
 const Sample = () => {
 	return (
 		<AbsoluteFill style={{alignItems: 'center', justifyContent: 'center'}}>
-			<Fade isIn isOut>
+			<Fly isIn isOut>
 				<Square />
-			</Fade>
+			</Fly>
 		</AbsoluteFill>
 	);
 };

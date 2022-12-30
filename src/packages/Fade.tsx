@@ -43,8 +43,9 @@ export const Fade = ({
 	const outputRange = createOutputRange({
 		isIn,
 		isOut,
-		from: 0,
-		to: 1,
+		start: 0,
+		end: 0,
+		mid: 1,
 	});
 
 	const opacity = interpolate(frame, inputRange, outputRange, {

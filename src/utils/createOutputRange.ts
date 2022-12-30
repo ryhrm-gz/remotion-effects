@@ -1,22 +1,24 @@
 export const createOutputRange = ({
 	isIn,
 	isOut,
-	from,
-	to,
+	start,
+	end,
+	mid,
 }: {
 	isIn: boolean;
 	isOut: boolean;
-	from: number;
-	to: number;
+	start: number;
+	end: number;
+	mid: number;
 }): number[] => {
 	if (isIn && isOut) {
-		return [from, to, to, from];
+		return [start, mid, mid, end];
 	}
 	if (isIn) {
-		return [from, to];
+		return [start, mid];
 	}
 	if (isOut) {
-		return [to, from];
+		return [mid, end];
 	}
-	return [to, to];
+	return [mid, mid];
 };
