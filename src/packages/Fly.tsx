@@ -2,7 +2,6 @@ import {ReactNode} from 'react';
 import {Easing, interpolate, useCurrentFrame, useVideoConfig} from 'remotion';
 import {createInputRange} from '../utils/createInputRange';
 import {createOutputRange} from '../utils/createOutputRange';
-import {Fade} from './Fade';
 
 export type FlyOptions = {
 	/** Seconds the transition lasts
