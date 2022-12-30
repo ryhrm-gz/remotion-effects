@@ -1,0 +1,18 @@
+{
+  "name": "preview",
+  "private": true,
+  "scripts": {
+    "start": "remotion preview",
+    "build": "remotion render",
+    "upgrade": "remotion upgrade"
+  },
+  "devDependencies": {
+    "@remotion/cli": "^3.3.19",
+    "@types/react": "^18.0.26",
+    "@types/web": "^0.0.86",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "^3.3.19",
+    "typescript": "^4.9.4"
+  }
+}
