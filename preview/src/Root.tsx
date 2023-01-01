@@ -3,6 +3,7 @@ import Fade from './examples/animations/Fade';
 import Blur from './examples/animations/Blur';
 import Fly from './examples/animations/Fly';
 import Scale from './examples/animations/Scale';
+import Move from './examples/animations/Move';
 
 export const Root = () => {
   return (
@@ -35,6 +36,14 @@ export const Root = () => {
         <Composition
           id="Scale"
           component={Scale}
+          width={1920}
+          height={1080}
+          fps={30}
+          durationInFrames={90}
+        />
+        <Composition
+          id="Move"
+          component={Move}
           width={1920}
           height={1080}
           fps={30}
