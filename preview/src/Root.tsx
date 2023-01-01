@@ -12,40 +12,40 @@ export const Root = () => {
         <Composition
           id="Fade"
           component={Fade}
-          width={1920}
-          height={1080}
+          width={1280}
+          height={720}
           fps={30}
           durationInFrames={90}
         />
         <Composition
           id="Blur"
           component={Blur}
-          width={1920}
-          height={1080}
+          width={1280}
+          height={720}
           fps={30}
           durationInFrames={90}
         />
         <Composition
           id="Fly"
           component={Fly}
-          width={1920}
-          height={1080}
+          width={1280}
+          height={720}
           fps={30}
           durationInFrames={90}
         />
         <Composition
           id="Scale"
           component={Scale}
-          width={1920}
-          height={1080}
+          width={1280}
+          height={720}
           fps={30}
           durationInFrames={90}
         />
         <Composition
           id="Move"
           component={Move}
-          width={1920}
-          height={1080}
+          width={1280}
+          height={720}
           fps={30}
           durationInFrames={90}
         />
