@@ -1,5 +1,5 @@
 import { AbsoluteFill } from 'remotion';
-import { Square } from '../../components/Square';
+import { Circle } from '../../components/Circle';
 import { Scale } from '../../../../packages/src';
 
 const Example = () => {
@@ -8,11 +8,11 @@ const Example = () => {
       style={{
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#ccc',
+        backgroundColor: '#fefefe',
       }}
     >
       <Scale isIn isOut>
-        <Square />
+        <Circle />
       </Scale>
     </AbsoluteFill>
   );

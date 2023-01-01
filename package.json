@@ -2,11 +2,13 @@
   "name": "remotion-effects",
   "private": true,
   "workspaces": [
-    "packages/*",
-    "site/*",
-    "preview/*"
+    "packages",
+    "site",
+    "preview"
   ],
-  "scripts": {},
+  "scripts": {
+    "preview": "yarn workspace preview start"
+  },
   "repository": {},
   "license": "MIT",
   "devDependencies": {
